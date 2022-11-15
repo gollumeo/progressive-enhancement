@@ -121,3 +121,54 @@ span.bad
     text-transform: capitalize;
     color: red;
 }
+
+tr:nth-child(even)
+{
+    background-color: grey;
+}
+
+tr:nth-child(odd)
+{
+    background-color: white;
+}
+
+/* pour glitch l'image à droite du premier item de la liste */
+ul li:first-of-type 
+{
+    background-image: url(bien.png);
+    background-repeat: no-repeat;
+    background-position: left 255px center;
+    background-size:contain;
+} 
+
+/* si on veut juste changer la puce
+ul li:first-of-type
+{
+    list-style-image: url(bien.png);
+}  */  
+
+ul li:nth-of-type(2)
+{
+    background-image: url(mal.png);
+    background-repeat: no-repeat;
+    background-position: left 230px center;
+    background-size:contain;
+} 
+
+ul li:nth-of-type(3)
+{
+    background-image: url(chat.png);
+    background-repeat: no-repeat;
+    background-position: left 232px center;
+    background-size:contain;
+} 
+
+ul
+{
+    line-height: 25px;
+}
+
+p:first-of-type
+{
+    font-weight: bold;
+}
