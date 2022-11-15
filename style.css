@@ -1,3 +1,9 @@
+body { 
+	max-width: 90%; 
+	margin: 0 auto !important; 
+	float: none !important; 
+}
+
 table, th, td
     {
         border: 1px solid black;
@@ -10,6 +16,7 @@ p
     line-height: 140%;
     font-size: 14px;
     color: darkblue;
+    max-width: 100%;
 }
 
 ul
@@ -26,6 +33,18 @@ blockquote
     line-height: 140%;
     font-size: 14px;
     color: darkblue;
+    width: 50%;
+    margin: 0 auto;
+}
+
+p>q
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 140%;
+    font-size: 14px;
+    color: darkblue;
+    width: 50%;
+    margin: 0 auto;
 }
 
 a
@@ -48,4 +67,9 @@ a:hover
 a:active 
 {
     text-decoration: line-through;
+}
+
+img
+{
+    max-width: 100%;
 }
