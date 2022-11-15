@@ -37,8 +37,10 @@ blockquote
     margin: 0 auto;
 }
 
-p>q
+q
 {
+    display: flex;
+    justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 140%;
     font-size: 14px;
