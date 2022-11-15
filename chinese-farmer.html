@@ -1,3 +1,11 @@
+<style>
+    table, th, td
+    {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+</style>
+
 <html>
     <head>
         <title>The Chinese Farmer</title>
@@ -6,18 +14,15 @@
 
     <body>
         <p>
-            <blockquote cite="Alexandre Gorius">
-                Is it a good thing? Is that a bad thing? I don't know. <br />
-                May 11, 2016, Alexandre Gorius
-            </blockquote>
+            <q cite="Alexandre Gorius" class="good" class="bad">Is it a good thing? Is that a bad thing? I don't know.</q> <br />
+                May 11, 2016, Alexandre Gorius</p>
 
-            In nature, Good & Evil do not exist. The Universe itself is neither good nor bad, but a potential in permanent development.
-        </p>
+            <p class="good" class="bad">In nature, Good & Evil do not exist. The Universe itself is neither good nor bad, but a potential in permanent development</p>
         <hr />
         <p>
             In life, there are 4 types of people.
             <ul>
-                <li>people who think the Internet is good,</li>
+                <li class="good">people who think the Internet is good,</li>
                 <li>people who think the Internet is evil,</li>
                 <li>people who think the Internet is cats,</li>
                 <li>people who don't think about it.</li>
@@ -41,6 +46,65 @@
 
         <h2>The Story</h2>
         
+        <figure>
+            <img src="https://cdn-images-1.medium.com/max/800/1*IQqkmPXYZuJViY5p-ymk0A.jpeg" alt="The Old Chinese Farmer" />
+            <figcaption>The Old Chinese Farmer</figcaption>
+        </figure>
+
+        <p>
+            <blockquote style="text-align:justify" cite="Alan Watts" class="good" class="bad">
+                Once upon a time there was a Chinese farmer whose horse ran away. That evening, all of his neighbors came around to commiserate. They said, “We are so sorry to hear your horse has run away. This is most unfortunate.” The farmer said, “Is it good? Is it bad? I don't know.” The next day the horse came back bringing seven wild horses with it, and in the evening everybody came back and said, “Oh, isn’t that lucky. What a great turn of events. You now have eight horses!” The farmer again said, “Is it good? Is it bad? I don't know.” 
+                <br />
+                The following day his son tried to break one of the horses, and while riding it, he was thrown and broke his leg. The neighbors then said, “Oh dear, that’s too bad,” and the farmer responded, “Is it good? Is it bad? I don't know.” The next day the conscription officers came around to conscript people into the army, and they rejected his son because he had a broken leg. Again all the neighbors came around and said, “Isn’t that great!” Again, he said, “Is it good? Is it bad? I don't know.”
+                <br />
+                The whole process of nature is an integrated process of immense complexity, and it’s really impossible to tell whether anything that happens in it is good or bad — because you never know what will be the consequence of the misfortune; or, you never know what will be the consequences of good fortune.
+                <br /><br />
+                <em>Alan Watts</em>
+            </blockquote>
+        </p>
+
+        <br />
+        <hr />
+
+        <figure>
+        <table>
+            <caption>Here is the dialog in the form of a table</caption>
+            <thead>
+                <tr>
+                    <td>Event</td>
+                    <td class="good" class="bad">Good or bad?</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lose a horse</td>
+                    <td><i>Maybe</i></td>
+                </tr>
+                <tr>
+                    <td>Win more horses</td>
+                    <td><i>Maybe</i>></td>
+                </tr>
+                <tr>
+                    <td>Son injury</td>
+                    <td><i>Maybe</i>></td>
+                </tr>
+                <tr>
+                    <td>Avoid war</td>
+                    <td><i>Maybe</i>></td>
+                </tr>
+            </tbody>            
+        </table>
+        <figcaption>Table representing the farmer's philosophy.</figcaption>
+        </figure>
+
+        <h3>Conclusion</h3>
+
+        <blockquote class="good" class="bad">Good and Bad are just one perspective. Bananas are good for monkeys, but monkeys are not good for bananas. Let's not make a big deal out of it...</blockquote>
 
     </body>
+
+    <foot>
+        <hr />
+        <p style="text-align:center">Copyright Just Another Company 2017. All right reserved. Adapted from this article: <a href="https://wellsbaum.blog/2018/01/27/alan-watts-the-story-of-the-chinese-farmer/" target="_blank">https://wellsbaum.blog/2018/01/27/alan-watts-the-story-of-the-chinese-farmer/</a></p>
+    </foot>
 </html>
