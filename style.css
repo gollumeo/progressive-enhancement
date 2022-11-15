@@ -6,6 +6,12 @@ table, th, td
 
 p 
 { 
-    font-style: serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 140%;
+}
+
+ul
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 140%;    
 }
