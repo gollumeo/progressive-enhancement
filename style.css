@@ -48,6 +48,11 @@ blockquote
 
 q
 {
+    font-style: italic;
+}
+
+/* sauvegarde du style pour q au cas où
+{
     display: flex;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -61,7 +66,7 @@ q
     border-left: 3px solid firebrick;
     border-collapse: collapse;
     padding: 80px 30px 80px 30px;
-}
+} */
 
 a
 {
