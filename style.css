@@ -51,6 +51,16 @@ q
     font-style: italic;
 }
 
+q.Villagers
+{
+    border-left: 3px solid darkgreen;
+}
+
+q.Farmer
+{
+    border-left: 3px solid darkred;
+}
+
 /* sauvegarde du style pour q au cas où
 {
     display: flex;
@@ -93,4 +103,21 @@ a:active
 img
 {
     max-width: 90%;
+}
+
+.header
+{
+    background-color: yellow;
+}
+
+span.good
+{ 
+    text-transform: capitalize;
+    color: green;
+}
+
+span.bad
+{
+    text-transform: capitalize;
+    color: red;
 }
