@@ -6,7 +6,7 @@ table, th, td
 
 p 
 { 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 140%;
     font-size: 14px;
     color: darkblue;
@@ -14,7 +14,7 @@ p
 
 ul
 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 140%;    
     font-size: 14px;
     color: darkblue;
@@ -22,8 +22,30 @@ ul
 
 blockquote
 { 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 140%;
     font-size: 14px;
     color: darkblue;
+}
+
+a
+{
+    font-weight: bold;
+    color: rgb(82, 18, 18);
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: rgb(82, 18, 18);
+}
+
+a:hover 
+{
+    color: brown;
+}
+
+a:active 
+{
+    text-decoration: line-through;
 }
