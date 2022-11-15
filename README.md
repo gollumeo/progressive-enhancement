@@ -11,4 +11,4 @@ Pour commencer, il est demandé de modifier un texte brut (`.txt`) en une versio
 
 ## Exercice
 
-C'est [ici](https://github.com/Gollumeo/progressive-enhancement/blob/main/chinese-farmer.html)
+C'est [ici](https://github.com/Gollumeo/progressive-enhancement/blob/main/chinese-farmer.html).
