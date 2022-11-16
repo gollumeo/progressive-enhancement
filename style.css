@@ -14,13 +14,14 @@ table, th, td
     border-collapse: collapse;
 }
 
-p 
+p
 { 
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 140%;
     font-size: 14px;
     color: darkblue;
     max-width: 100%;
+    text-align: justify;
 }
 
 ul
@@ -100,9 +101,59 @@ a:active
     text-decoration: line-through;
 }
 
-img
+/* img[alt~="Chinese"]
 {
-    max-width: 90%;
+    width: 360px;
+    height: auto;
+    float:left;
+    margin: 0px 50px 0px 50px;
+} */
+
+img[alt~="mur"]
+{
+    width: auto;
+    height: 130px;
+    float: left;
+    margin:10px 50px 10px 50px;
+}
+
+figure[alt~="What"]
+{
+    width: auto;
+    height: 350px;
+    float:right;
+    margin: 100px 900px 0px 50px;
+}
+
+img[alt~="What"]
+{
+    width: auto;
+    height: 220px;
+    margin: 0px 115px 5px 0px;
+}
+
+figure[alt~="Chinese"]
+{
+    width: 360px;
+    float: left;
+    margin: 0 auto 5px auto;
+}
+
+img[alt~="Chinese"]
+{
+    width: 340px;
+    height: auto;
+    margin: 0px 115px 5px 0px;
+}
+
+p[alt="story"]
+{
+    margin-top: -30px;
+}
+
+em
+{
+    margin-bottom: 10px;
 }
 
 .header
@@ -137,7 +188,7 @@ ul li:first-of-type
 {
     background-image: url(bien.png);
     background-repeat: no-repeat;
-    background-position: left 255px center;
+    background-position: left 510px center;
     background-size:contain;
 } 
 
@@ -151,15 +202,16 @@ ul li:nth-of-type(2)
 {
     background-image: url(mal.png);
     background-repeat: no-repeat;
-    background-position: left 230px center;
+    background-position: left 490px center;
     background-size:contain;
+    margin-top: 5px;
 } 
 
 ul li:nth-of-type(3)
 {
     background-image: url(chat.png);
     background-repeat: no-repeat;
-    background-position: left 232px center;
+    background-position: left 490px center;
     background-size:contain;
 } 
 
